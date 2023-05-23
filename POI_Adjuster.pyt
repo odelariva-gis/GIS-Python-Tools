@@ -158,6 +158,8 @@ class PoiAdjust(object):
         else:
             arcpy.AddError("Tool can only process Polygons or Points. Tool will exit now!")
 
+        self.get_message('temp change')
+
         return
     
 
